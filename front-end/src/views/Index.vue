@@ -80,8 +80,9 @@ export default {
 
 <template>
     <div class="container">
+        <h1>Example Course</h1>
 
-        <h1>Select date</h1>
+        <h2>Select date</h2>
         <Datepicker v-model="date" date-picker @update:modelValue="getAssists()"></Datepicker>
 
         <div v-if="dataStudents != []">
